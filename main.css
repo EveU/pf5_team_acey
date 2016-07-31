@@ -1,8 +1,10 @@
 .container {
   width: 90%;
+  margin: 0 auto;
 }
 
 ul {
+  padding-left: 0;
   list-style: none;
 }
 
@@ -16,6 +18,7 @@ h2, h3 {
 }
 
 .question, .intro, .response {
+  box-sizing: border-box;
   width: 100%;
   padding-left: 10px;
   line-height: 60px;
