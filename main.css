@@ -34,6 +34,12 @@ h2, h3 {
   border: 1px solid rgb(137,196,64);
 }
 
+form {
+  display: inline;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 .info {
   padding: 10px;
 }
