@@ -15,11 +15,14 @@ h2, h3 {
   margin: 0;
 }
 
-.question, .response {
+.question, .intro, .response {
   width: 100%;
   padding-left: 10px;
-  height: 60px;
   line-height: 60px;
+}
+
+.response, .intro {
+  height: 60px;
 }
 
 .question, .info {
